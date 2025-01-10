@@ -4,11 +4,12 @@ const dotenv=require('dotenv');
 dotenv.config();
 
 const connection=mysql.createConnection({
-
-    host:"localhost",
-    user:"root",
-    password:"9705511180",
-    database:"NODE"
+    
+    host:"birhokvn04quxuulgotq-mysql.services.clever-cloud.com",
+    user:"ubupgcxfd8faxtx1",
+    password:"ZxGDRYAmnwaUy1IcGeWi",
+    database:"birhokvn04quxuulgotq",
+    port:3306
 
 });
 
